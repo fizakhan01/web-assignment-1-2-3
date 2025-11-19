@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <style>
+/*         
+        .box{ 
+            width: 400px;
+            display:inline;
+            
+        }
+        #hlo{
+            border-style: groove;
+            border: 2px solid black;
+        }
+        #ox{
+            border-style: groove;
+             border: 2px solid black; 
+        }
+        #hii>h1{
+            color: chartreuse;
+        }
+        #hlo>h3{
+            color: yellow;
+        }
+        #ox>h3{
+            color: blue;
+        } */
+        body{
+    font-family: Arial;
+    background:#f4f1fc;
+    padding:20px;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.pot{
+    display:flex;
+    grid-template-columns: repeat(3,1fr);
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.box{
+    width:220px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+.box h1{
+    margin:10px 0;
+}
+.btn{
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 16px;
+    background:#5a3af3;
+    color:white;
+    border-radius:6px;
+    text-decoration:none;
+}
+
+
+    </style>
+</head>
+<body>
+    <h1>Choose a plan that right for your business</h1>
+    <p>we collect reviews from our users so you can get an honest opinion of what 
+        an experience with our website are really like!
+    </p>
+    <div class="pot">
+    <div class="box" id="hii" >
+     <h2>starter plan</h2>
+    <h1>Free</h1>
+    <h3>per month</h3>
+    <p>we collect reviews from our users so 
+        you can get an honest opinion of what an experience with our website. </p>
+   
+<a class="btn">Start Now</a>    </div> 
+
+ 
+    <div class="box" id="hlo">
+        <h1>starter plan</h1>
+        <h3>$39.00</h3>
+        <h4>per month</h4>
+        <p>we collect reviews from our users so you get an 
+            honest opinion of what an experience with our website</p>
+            <a class="btn">Start Now</a>
+    </div>
+
+    <div class="box" id="ox">
+         <h1>starter plan</h1>
+        <h3>$59.00</h3>
+        <h4>per month</h4>
+        <p>we collect reviews from our users so you get an 
+            honest opinion of what an experience with our website</p>
+           <a class="btn">Start Now</a>
+
+    </div>
+</div>
+
+</body>
+</html>
