@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone Project</title>
+</head>
+<style>
+    .img{
+        width: 80px; 
+    }
+    .img2{
+        width: 100%;
+        height: 100px;
+    }
+    .img3{
+        width: 200px;
+        height: 50px;
+    }
+    #div1{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .button{
+        display: flex;
+        gap: 10px;
+        justify-content: flex-end;
+    }
+    #button2{
+        background-color: aliceblue;
+        color: blue;
+        border-radius: 9999px;
+    }
+    #button3{
+        background-color: blue;
+        color: aliceblue;
+        border-radius: 9999px;
+    }
+    #div2{
+        background-color: rgb(208, 230, 250);
+        padding:20px 20px 20px 20px;
+        text-align: center;
+        text-wrap: initial;
+    }
+    #imgdiv1{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #imgdiv2{
+        display: flex;
+        justify-content:flex-start;
+        gap: 40px;
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 40px;
+    }
+    .background-color{
+        background-color: rgb(247, 250, 250);
+        padding: 40px;
+        border-radius: 5%;
+    }
+    #div4{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px;
+    }
+    #div5{
+        display: flex;
+        justify-content: space-evenly;
+        border-radius: 15px;
+        
+    }
+   .div5-1{
+    background-color: rgb(247, 250, 250);
+    padding: 40px;
+    border-radius: 5%;
+    margin: 20px;
+    } 
+
+    .entroll{
+        background-color: blue;
+        color: aliceblue;
+    }
+
+    .text{
+        color: rgb(192, 167, 8);
+    }
+    h4{
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div id="div1">
+        <div>
+            <h1 style="color: rgb(106, 121, 253);">Learnify</h1>
+        </div>
+        <div style="padding: 20px;" id="button1" >
+            <input type="text" placeholder="Search courses , topics ..." style="width: 500px; padding: 20px; border-radius: 10px;">
+            <button type="submit" style="height: 50px; border-radius: 10px;" >Search</button>
+        </div>
+       <div style="padding: 20px;" class="button">
+            <button type="button" id="button2"  >Login</button>
+
+            <button type="button" id="button3" class="button">Sign Up</button>
+
+        </div>
+    </div>
+    <div id="div2">
+        <h1>Unlock Your Potential with Online Learning</h1>
+        <p>Join thousands of learners and access top-rated courses from expert instructors. Learn anytime , anywhere. </p>
+        <input type="text" placeholder="What do you want to learn? " style="padding: 20px; border-radius: 10px; ">
+        <button type="submit" style="padding: 15px; border-radius: 10px; background-color:blue; color: aliceblue;"> Find Courses</button>
+    </div>
+    <div id="div3"> <h1 style="text-align: center;">Popular Categories</h1>
+        <div id="imgdiv1">
+            <div class="background-color">
+                <img src="https://3.imimg.com/data3/YG/HY/MY-13381970/laptop-computer-500x500.jpg" class="img" alt="Alternate image">
+                <h4>Development</h4>
+            </div>
+            <div class="background-color">
+                <img src="https://as1.ftcdn.net/v2/jpg/02/27/59/32/1000_F_227593284_Jiwo9vE1MNj2e095BYduW5cBRSzkgtUp.jpg" class="img" alt="Alternate image">
+                <h4>Design</h4>
+            </div>
+            <div class="background-color">
+                <img src="https://c8.alamy.com/comp/2KEW09C/green-graph-of-economic-growth-on-light-background-vector-image-2KEW09C.jpg" class="img"  alt="Alternate image">
+                <h4>Buisness</h4>
+            </div>
+            <div class="background-color">
+                <img src="https://as1.ftcdn.net/v2/jpg/05/47/71/16/1000_F_547711693_HKq5bQO3BFUsgtSCyGBcLohCIWwGywbt.jpg" class="img" alt="Alternate image">
+                <h4>Languages</h4>
+            </div>
+            <div class="background-color">
+                <img src="https://static.vecteezy.com/system/resources/previews/017/222/245/original/3d-stack-of-books-3d-rendering-illustration-free-png.png" class="img" alt="Alternate image">
+                <h4>Academics</h4>
+            </div>
+            <div class="background-color">
+                <img src="https://static.vecteezy.com/system/resources/previews/006/056/660/large_2x/music-icon-music-tone-flat-symbol-design-isolated-on-white-background-free-vector.jpg" class="img" alt="Alternate image">
+                <h4>Musics</h4>
+            </div>
+        
+        </div>
+        <div id="imgdiv2">
+            <div class="background-color">
+                <img src="https://cdn3.emoji.gg/default/lg/person-in-lotus-position.png" class="img" alt="Alternate image">
+                <h4>Lifestyle</h4>
+            </div>
+            <div class="background-color">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.aLsZk6VQ9ZJKE76dQ-EVCwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" class="img" alt="Alternate image">
+                <h4>Science</h4>
+            </div>
+        </div>
+
+    </div>
+
+     <div id="div4">
+       <h1>Featured Courses</h1>     
+        <div><p>Level:
+            <select name="" id="">
+            <option value="">All</option>
+            <option value="">Beginner</option>
+            <option value="">Intermediate</option>
+            <option value="">Advanced</option>
+          </select></p></div> 
+        <div> <p>Price:
+            <select name="" id="">
+            <option value="">All</option>
+            <option value="">$100</option>
+            <option value="">$200</option>
+            <option value="">$300</option>
+          </select></p></div>
+        <div>
+            <input type="checkbox">
+            <label for="">Certificate</label> 
+        </div>
+    </div>
+    <div id="div5">
+        <div class="div5-1">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.ty0e6zWJI1N7pzIsArorOwHaFi?rs=1&pid=ImgDetMain&o=7&rm=3" class="img2" alt="Alternate image">
+            <h4>Modern Web Development Bootcamp</h4> 
+            <p class="text">Rating:- 5  </p>
+            <img src="https://tse2.mm.bing.net/th/id/OIP.jdtBJfDmaWGiYeteaKdzXQHaB9?rs=1&pid=ImgDetMain&o=7&rm=3" class="img3" alt="rating"> <br>
+            <button type="button" class="entroll">Entroll Now</button>
+        </div>
+        <div class="div5-1">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.OSkXq-Nbh75o-_ImuBwNcQHaE7?rs=1&pid=ImgDetMain&o=7&rm=3" class="img2" alt="Alternate image">
+            <h4>Graphic Design Masterclass</h4>
+            <p class="text">Rating:- 4.5 </p>
+            <img src="https://th.bing.com/th/id/OIP.7xK7pqZ9bPvq-CCTgXyehAHaBW?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" class="img3" alt="rating"><br>
+            <button type="button" class="entroll">Entroll Now</button>        </div>
+        <div class="div5-1">
+            <img src="https://c.stocksy.com/a/JIg300/z9/877567.jpg" class="img2" alt="Alternate image">
+            <h4>Business Analytics Fundamentals</h4>
+            <p class="text">Rating:- 4.5 </p>
+            <img src="https://th.bing.com/th/id/OIP.7xK7pqZ9bPvq-CCTgXyehAHaBW?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" class="img3" alt="rating"> <br>
+            <button type="button" class="entroll">Entroll Now</button>        </div>
+    </div>
+</body>
+</html>
